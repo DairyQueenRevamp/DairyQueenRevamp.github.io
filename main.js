@@ -1,3 +1,4 @@
+
 try {
     const dripB = document.getElementsByClassName('dripping-bottom')[0];
     const dripT = document.getElementsByClassName('dripping-top')[0];
@@ -14,87 +15,75 @@ try {
 }
 
 const footerEl = document.getElementsByTagName('footer')[0];
-footerEl.setAttribute('class', 'container-fluid bg-secondary text-light py-4');
+footerEl.setAttribute('class', 'container-fluid bg-#dc3546 text-light py-4');
 footerEl.innerHTML = `
+	<!-- Boxicon -->
+	<link href='https://boxicons.com/?query=' rel='stylesheet'>
+	<!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 <!-- row 1  -->
-<div class="row">
-    <div class="col-lg">
-        <h3>Work with us</h3>
-        <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aperiam ipsum ad? Perspiciatis ducimus
-            rerum neque, consequatur pariatur ratione voluptates tenetur corrupti voluptas eius nulla,
-            perferendis autem quis, delectus cumque.
-        </p>
-    </div>
-    <div class="col-lg">
-        <h3>Contact Information</h3>
-        <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aperiam ipsum ad? Perspiciatis ducimus
-            rerum neque, consequatur pariatur ratione voluptates tenetur corrupti voluptas eius nulla,
-            perferendis autem quis, delectus cumque.
-        </p>
-    </div>
-    <div class="col-lg">
-        <h3>Social Media</h3>
-        <div class="row social-media">
-            <div class="col"><img
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
+<section class="footer">
+		<div class="box-container text-center text-md-left">
+			<div class="row">
+		<div class="box col-md-3 mt-md-0 mt-3">
+			<h3>Work With Us</h3>
+			<p>Change the world, one scoop at a time. Working at DQ means getting paid to do what you enjoy. 
+			We are looking for people who have same vision with us, a great mindset to work smart despite the 
+			challenges and aspire significant change among others.</p>
+		</div>
+		<div class="box col-md-3 mb-md-0 mb-3">
+			<h3>Contact Information</h3>
+			<p>We are open and glad to serve you starting at 9AM – 9PM central time and Saturday and Sunday. 
+			We are happy to assist our clients in any way we can, so please call us at 1-866-793-7582, email us 
+			at dairyqueenph@gmail.com</p>
+		</div>
+		<div class="box col-md-3 mb-md-0 mb-3">
+			<div class="social-media">
+                <a href="#" class= "fab fa-facebook-f"></a>
+                <a href="#" class= "fab fa-twitter"></a>
+                <a href="#" class= "fab fa-instagram"></a>
+                <a href="#" class= "divide fab fa-linkedin"></a>
+				<a href="#" class= "fab fa-youtube"></a>
+                <a href="#" class= "fab fa-pinterest"></a>
             </div>
-            <div class="col"><img
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
-            </div>
-            <div class="col"><img
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
-            </div>
-        </div>
-        <div class="row social-media">
-            <div class="col"><img
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
-            </div>
-            <div class="col"><img
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
-            </div>
-            <div class="col"><img
-                    src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
-            </div>
-        </div>
-    </div>
-    <div class="col-lg">
-        <h3>Subscription</h3>
-        <div>
-            <label for="email">Subscribe to our Newsletter</label>
-            <input type="email" class="form-control mb-4" name="email" placeholder="example@email.com">
+		</div>
+		<div class="box col-md-3 mb-md-0 mb-3">
+			<label for="email">Subscribe to our Newsletter</label>
+            <input type="email" class="email form-control mb-4" name="email" placeholder="example@email.com">
             <button class="btn btn-success" onclick="alert('Thank you for Subscribing!')">Submit</button>
-        </div>
-    </div>
-</div>
+		</div>
+		</div>
+		</div>
+	</section>
 
 <hr />
 
 <!-- row 2  -->
 <div class="row">
+    <div class="col-lg brand">
+        <img src="images/footer.png">
+    </div>
+    <div class="col-lg brand">
+        <h4>&reg;T.M. AM.D.Q. CORP &copy; 2021 COPYRIGHT <br>
+		<nav>
+		<a href="https://www.dairyqueen.com/us-en/Privacy-Statement/">Privacy Statement</a> ||
+		<a href="https://www.dairyqueen.com/en-us/Visitor-Agreement/">Visitor Agreement</a>
+		<nav>
+		</h4>
+	</div>
     <div class="col-lg">
-        <img width="200px"
-            src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
+        <h3 class="text-center">Citations</h3>
+        <h5 class="text-center">
+            Dairy Queen Philippine. (n.d.) Home [Facebook page]. Facebook. Retrieved from https://www.facebook.com/dairyqueenphilippines
+        </h5>
     </div>
     <div class="col-lg">
-        <img width="200px"
-            src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg">
-    </div>
-    <div class="col-lg">
-        <h3>Citations</h3>
-        <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aperiam ipsum ad? Perspiciatis ducimus
-            rerum neque, consequatur pariatur ratione voluptates tenetur corrupti voluptas eius nulla,
-            perferendis autem quis, delectus cumque.
-        </p>
-    </div>
-    <div class="col-lg">
-        <h3>Designer</h3>
-        <p class="text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aperiam ipsum ad? Perspiciatis ducimus
-            rerum neque, consequatur pariatur ratione voluptates tenetur corrupti voluptas eius nulla,
-            perferendis autem quis, delectus cumque.
-        </p>
+        <h3 class="text-center">Web Designer</h3>
+        <h5 class="text-center"">
+            Kyla Marie E. Bajar - BSIT-SMBA <br>
+			Christian Jerome Kyle S. Reyes - BSIT-WMA <br> 
+			Kyla Marie B. Trinidad - BSIT-SMBA
+        </h5>
     </div>
 `
